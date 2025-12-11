@@ -58,7 +58,7 @@ function ProductDetails({ addToCart, cart, productLikes, toggleLike, addToRecent
           <li key={index}>{spec}</li>
         ))}
       </ul>
-      <div className="quantity-selector">
+      <div className="quantity-selector1">
         <button onClick={() => setQuantity(Math.max(1, quantity - 1))}>-</button>
         <span>{quantity}</span>
         <button onClick={() => setQuantity(Math.min(product.stock - getCurrentQuantity(), quantity + 1))}>+</button>
