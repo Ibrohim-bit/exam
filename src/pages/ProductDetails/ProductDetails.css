@@ -82,7 +82,10 @@
   align-items: center;
   gap: 10px;
   margin: 20px 0;
+    position: relative;
+  right: -325px;
 }
+
 
 .quantity-selector button {
   padding: 5px 10px;
